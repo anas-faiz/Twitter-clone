@@ -1,8 +1,8 @@
-const { MongoClient, ServerApiVersion } = require("mongodb");
 const express = require("express");
 const cors = require("cors");
+const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri =
-  "";
+  "mongodb+srv://anasfaiz0811: mxy9wGBBA93Jm2FZ@cluster0.k4evb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const port = 5000;
 
 const app = express();
